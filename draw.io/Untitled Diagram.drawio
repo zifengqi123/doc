@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:142.0) Gecko/20100101 Firefox/142.0" version="28.1.1">
+  <diagram name="第 1 页" id="csHUM5eht7RfqNCaGbsd">
+    <mxGraphModel dx="1356" dy="920" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-7" value="&lt;div&gt;仿真平台主机&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
+          <mxGeometry x="430" y="110" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-8" value="&lt;div&gt;转台控制主机&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.pc;" parent="1" vertex="1">
+          <mxGeometry x="430" y="260" width="100" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-9" value="&lt;div&gt;局域网路由器&lt;/div&gt;" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.wireless_modem;" parent="1" vertex="1">
+          <mxGeometry x="210" y="200" width="100" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-10" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.comm_link_edge;html=1;rounded=0;" parent="1" source="-FSK6u7xi6Y6GhgZc-u1-9" target="-FSK6u7xi6Y6GhgZc-u1-7" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="310" y="220" as="sourcePoint" />
+            <mxPoint x="410" y="120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-11" value="" style="html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.comm_link_edge;html=1;rounded=0;" parent="1" source="-FSK6u7xi6Y6GhgZc-u1-9" target="-FSK6u7xi6Y6GhgZc-u1-8" edge="1">
+          <mxGeometry width="100" height="100" relative="1" as="geometry">
+            <mxPoint x="350" y="560" as="sourcePoint" />
+            <mxPoint x="450" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-12" value="三轴转台" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.desktop_pc;" parent="1" vertex="1">
+          <mxGeometry x="670" y="265" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="-FSK6u7xi6Y6GhgZc-u1-8" target="-FSK6u7xi6Y6GhgZc-u1-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-19" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-FSK6u7xi6Y6GhgZc-u1-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.1387" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-FSK6u7xi6Y6GhgZc-u1-23" value="数据线" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="-FSK6u7xi6Y6GhgZc-u1-16" vertex="1" connectable="0">
+          <mxGeometry x="-0.1218" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
